@@ -7,5 +7,6 @@
 </head>
 <body>
   <?php include 'main.php'; ?>
+  <?php include 'array.php'; ?>
 </body>
 </html>

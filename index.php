@@ -6,7 +6,8 @@
   <title>PHPの学習</title>
 </head>
 <body>
-  <?php include 'main.php'; ?>
-  <?php include 'array.php'; ?>
+  <?php //include 'chapter2.php'; ?>
+  <?php //include 'chapter3.php'; ?>
+  <?php include 'chapter4.php'; ?>
 </body>
 </html>

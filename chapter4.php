@@ -93,3 +93,21 @@
   foreach($fruits as $fruit => ["色" => $color, "味" => $taste]) {
       print "{$fruit}の色は {$color} で、味は {$taste} です。<br>";
   }
+
+  // break文とcontinue文
+   $sum = 0;
+   for($i = 1; $i <=15; $i++){
+    if($i%2 == 0){
+        print "iが偶数なのでスキップします。<br>";
+        continue; // 偶数のときはスキップ    
+    }
+    print "sum:".$sum." + "."i:".$i." ";
+    $sum += $i;
+    print "=".$sum."<br>";
+    if($sum >= 30){
+        print "合計が30を超えたのでループを終了します。<br>";
+        break; // 合計が30を超えたらループを終了
+    }
+   };
+
+   

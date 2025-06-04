@@ -8,6 +8,8 @@
 <body>
   <?php //include 'chapter2.php'; ?>
   <?php //include 'chapter3.php'; ?>
-  <?php include 'chapter4.php'; ?>
+  <?php //include 'chapter4.php'; ?>
+  <?php //include 'practice4.php'; ?>
+  <?php include 'chapter5.php'; ?>
 </body>
 </html>
